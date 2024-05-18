@@ -1,0 +1,148 @@
+/* styles.css */
+
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0; /* Set background color if wallpaper doesn't cover entire page */
+    background-image: url('../../img/deadpool/wallpaperflare.com_wallpaper\ \(8\).jpg');
+    background-size: cover;
+    background-position: center;
+}
+p {
+    color: white;
+}
+
+header {
+    background-color: transparent; /* Set header background color to transparent */
+    color: yellow; /* Set header text color to white */
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: yellow;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 30px;
+}
+
+section h2 {
+    color: yellow; /* Set section/* styles.css */
+
+    /* Global styles */
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #333333;
+        color: #fff;
+    }
+    
+    header {
+        background-color: #000;
+        padding: 20px;
+        text-align: center;
+    }
+    
+    header h1 {
+        margin: 0;
+    }
+    
+    nav ul {
+        list-style-type: none;
+        padding: 0;
+    }
+    
+    nav ul li {
+        display: inline;
+        margin-right: 20px;
+    }
+    
+    nav ul li a {
+        text-decoration: none;
+        color: #313131;
+    }
+    
+    nav ul li a:hover {
+        text-decoration: underline;
+    }
+    
+    main {
+        padding: 20px;
+    }
+    
+    section {
+        margin-bottom: 30px;
+    }
+    
+    section h2 {
+        color: #ff6600;
+    }
+    
+    section p {
+        color: #3d3d3d;
+    }
+    
+    button {
+        background-color: #ff6600;
+        color: #fff;
+        border: none;
+        padding: 10px 20px;
+        font-size: 1em;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+    }
+    
+    button:hover {
+        background-color: #ff4500;
+    }
+    
+    footer {
+        background-color: #2c2b2b;
+        color: #434343;
+        text-align: center;
+        padding: 20px;
+    }
+     /*heading text color to white */
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+footer {
+    background-color: transparent; /* Set footer background color to transparent */
+    color: #2c2a2a; /* Set footer text color to white */
+    text-align: center;
+    padding: 20px;
+}
